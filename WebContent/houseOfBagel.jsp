@@ -92,8 +92,8 @@ td
     	String driverName = "com.mysql.jdbc.Driver";
     	String connectionUrl = "jdbc:mysql://localhost:3306/";
     	String dbName = "test";
-    	String userId = "ayesha";
-    	String password = "1234";
+    	String userId = "root";
+    	String password = "";
 
     	try {
     		Class.forName(driverName);

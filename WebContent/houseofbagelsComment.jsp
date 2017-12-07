@@ -15,7 +15,7 @@ session.putValue("userid",user);
 String pwd=request.getParameter("comment"); 
 Class.forName("com.mysql.jdbc.Driver"); 
 java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test",
-"ayesha","1234"); 
+"root",""); 
 Statement st= con.createStatement(); 
 ResultSet rs; 
 int i=st.executeUpdate("insert into houseOfBagels values ('"+user+"','"+pwd+"')"); 

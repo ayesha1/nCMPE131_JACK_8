@@ -53,7 +53,7 @@ td
       <br>
         <div class="row">
             <div class="col-sm-3">
-                <h1>Startbucks</h1>
+                <h1>Starbucks</h1>
                 <button type="button" class="btn btn-secondary"><a  href="hasComment.html">Write Review</a></button>
                 <button type="button" class="btn btn-secondary">Add Photo</button>
             </div>
